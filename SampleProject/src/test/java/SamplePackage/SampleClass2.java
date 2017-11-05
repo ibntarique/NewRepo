@@ -14,7 +14,7 @@ public class SampleClass2 {
 	@Test
 	public void test5()
 	{
-		for (int i = 0; i < array.length; i++) {
+		for (int i = 0; i < 5; i++) {
 			
 			System.out.println("This is for loop...");
 			
