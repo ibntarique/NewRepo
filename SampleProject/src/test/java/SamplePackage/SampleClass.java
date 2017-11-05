@@ -12,6 +12,8 @@ import org.testng.annotations.Test;
 
 public class SampleClass {
 	
+	public static SampleClass2 sampleclass2 = new SampleClass2();
+	
 	// test case 1
 
 		@Test
@@ -29,6 +31,10 @@ public class SampleClass {
 		@Test
 		public void testCase3() {
 		System.out.println("Executing test case 3");
+		
+		sampleclass2.test4();
+		
+		
 		}
 		
 		@BeforeMethod
